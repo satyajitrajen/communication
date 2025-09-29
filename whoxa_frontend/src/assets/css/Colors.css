@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #fafafa;
+  /* --color-yellow: #fafafa; */
+  --border-color: #eeeeee;
+  --dark-text: #000000;
+  --light-text: #a4a4a4;
+  --selected-chat: #faf8f1;
+  --message-head: #faf8f1;
+  --other-message-bg: #dddddd;
+  --modal-bg: #ffffff;
+  --dropdown-option-hover: #edf1f3;
+  --selected-message: #fcc6041a;
+  --other-profile-sidebar: #ffffff;
+  --pdf-bg: #dddddd;
+  --attachfile-icon-bg: #eeeeee;
+  --attachfile-icon-color: #000000;
+  --pin-messagelist-header: #ececec;
+  --pin-messagelist: #f6f6f6;
+}
+
+.dark {
+  --color-primary: #252525;
+  --color-secondary: #1d1d1d;
+  --border-color: #eeeeee14;
+  --dark-text: #ffffff;
+  --light-text: #a4a4a4;
+  --selected-chat: #252525;
+  --message-head: #23221d;
+  --other-message-bg: #4a4a4a;
+  --modal-bg: #363636;
+  --dropdown-option-hover: #3c3c3c;
+  --selected-message: #fcc6040d;
+  --other-profile-sidebar: #242424;
+  --pdf-bg: #4a4a4a;
+  --attachfile-icon-bg: #444444;
+  --attachfile-icon-color: #fee17a;
+  --pin-messagelist-header: #313131;
+  --pin-messagelist: #313131;
+}

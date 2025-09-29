@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-gradient {
+    @apply bg-gradient-to-b from-[#FFEDAB] to-[#FCC604] !text-black;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* React Multi Carousel Start ================================================================ */
+.react-multiple-carousel__arrow {
+  background-color: rgba(0, 0, 0) !important;
+  display: none;
+}
+.react-multiple-carousel__arrow:hover {
+  background-color: rgba(0, 0, 0, 0.353) !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 17px;
+}
+.react-multiple-carousel__arrow--left {
+  left: 17px;
+}
+
+#recommended_car_deal
+  > .react-multi-carousel-list
+  > .react-multiple-carousel__arrow {
+  display: none;
+}
+
+/* React Multi Carousel End ================================================================ */
+
+/* React Accordian Start ================================================================ */
+.accordion__button:before {
+  display: none;
+}
+.accordion__button {
+  background-color: transparent !important;
+}
+/* React Accordian End ================================================================ */
+
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  padding-right: 0 !important;
+} */
+
+/* React Modal Start =============================================== */
+
+.ReactModal__Overlay {
+  z-index: 50;
+}
+.ReactModal__Content {
+  border: none !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+  .ReactModal__Content {
+    inset: 16px !important;
+  }
+}
+/* React Modal End =============================================== */
+
+/* React Phone Input Start ============================================ */
+
+.form-control {
+  /* border: 1px solid #B0B0B0 !important; */
+
+  /* border-top-right-radius: 0 !important ; */
+  /* border-top-left-radius: 0 !important; */
+  height: 48px !important;
+  width: 100% !important;
+}
+.selected-flag {
+  /* border: none !important; */
+  border-right: 1px solid #cacaca !important;
+  width: 3.5rem !important;
+  padding-left: 10px !important;
+}
+.flag-dropdown {
+  border: none !important;
+  background: none !important;
+  border-right: 1px !important;
+}
+.PhoneInputCountryIcon {
+  border: none !important;
+  background: transparent !important;
+}
+.special-label {
+  display: none !important;
+}
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}
+
+.react-tel-input .selected-flag {
+  background-color: transparent !important;
+}
+
+/* React Phone Input End ============================================ */
+
+/* Change datepicker color to white */
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* React Leaflet Map Start*/
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+/* React Leaflet Map End */
+
+/* For Paypal Pament Popup */
+.paypal-buttons-context-iframe {
+  min-width: 300px !important;
+  margin-inline: auto;
+  /* transform: translateX(-20%); */
+}
+
+@media screen and (max-width: 480px) {
+  .paypal-buttons-context-iframe {
+    min-width: 200px !important;
+  }
+}
+
+/* Change Image Color */
+.image-hover-blue:hover {
+  filter: invert(34%) sepia(55%) saturate(3987%) hue-rotate(192deg)
+    brightness(91%) contrast(101%);
+}
+
+/* For Audio Player Design */
+/* div[data-testid="timer"] {
+  color: var(--dark-text) !important;
+  font-size: 16px !important;
+} */
+.scroll-to-bottom-button {
+  display: none;
+}
